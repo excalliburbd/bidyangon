@@ -1,5 +1,6 @@
 import React from 'react';
 import { Jumbotron, Button } from 'react-bootstrap';
+import TopicList from './topic_list';
 
 const Home = () => (
   <div>
@@ -8,6 +9,8 @@ const Home = () => (
       <p>Let's be self educated</p>
       <p><Button bsStyle="primary">Learn more</Button></p>
     </Jumbotron>
+
+    <TopicList />
   </div>
 );
 
